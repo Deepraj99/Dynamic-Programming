@@ -1,0 +1,18 @@
+Some base problems of DP
+
+* Coin Change                             : sum of coins should be less or equal than K
+* 0-1 Knapsack                            : Given two values and a limit W, Max or Min profit till second value less or equal than K
+* Cleaning the phone(Codeforces) similar to 0-1 Knapsack :  https://codeforces.com/contest/1475/problem/D
+* Catalon Number, P or C                  : Find formula
+* Gold mine Problem                       : Up or Down approch
+* Painting the fence                      : same = diff*1 + diff = (same+diff)*(k-1)
+* Longest common subsequence              : dp[i][j] = dp[i-1][j-1] or = max(dp[i-1][j], dp[i][j-1])
+* Longest increasing subsequence          : Find reasult till exactly current number
+* Kadane's Algorithm                      : if(sum < 0) sum = current number
+
+* Largest squre formed in a matrix
+* Min jumps to reach the end
+* Count all palindromic subsequence
+* Matrix chain multiplication             : C[i, j] = i<=k<j min(C[i, k] + C[k+1, j] + d(i-1)*d(k)*d(j))
+* Rod cutting or Edit Distance            : 1+min(insert, remove, replace)
+* Friends partiting problem               : dp[i] = dp[i-1] + (i-1)*dp[i-]
